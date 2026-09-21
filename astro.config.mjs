@@ -7,7 +7,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://pseudocoderr.github.io",
-  base: "/dark-minimal-portfolio",
   integrations: [tailwind(), react()],
   vite: {
     resolve: {
